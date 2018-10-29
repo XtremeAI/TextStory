@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cb4b8617f9a0a114fa1c72f57fde2d80, type: 3}
+  m_Name: StartingState
+  m_EditorClassIdentifier: 
+  _storyText: "You starved heavily the second day in a row. \rYour body was probably
+    getting used to absense of food but you new you must find something to eat whatever
+    on earth it might take and you new... There is no time left to spare! \r\n\r\nWhere
+    would you go next?\r\n\r\n1. The long winded tunnel\r\n2. Climb deeper down the
+    hole"
+  _nextStates:
+  - {fileID: 11400000, guid: 3af49092b4602d44d9836b05dae69439, type: 2}
+  - {fileID: 11400000, guid: bef262f939a559344862c4f5f958f295, type: 2}
