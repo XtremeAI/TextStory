@@ -5,13 +5,13 @@ using UnityEngine;
 public class State : ScriptableObject {
 
 	[SerializeField, TextArea(10,14)] string _storyText;
-	[SerializeField] State[] _nextStates;
+	[SerializeField] List<State> _nextStates;
 
 	public string GetStoryState(){
 		return _storyText;
 	}
 
-	public State[] GetNextStates(){
+	public List<State> GetNextStates(){
 		return _nextStates;
 	}
 }
