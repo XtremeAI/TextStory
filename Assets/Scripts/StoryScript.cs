@@ -24,14 +24,24 @@ public class StoryScript : MonoBehaviour {
 
   private void ManageState()
   {
+		bool isStateChanged = false;
     var nextStates = _storyState.GetNextStates();
-		if (Input.GetKeyDown(KeyCode.Alpha1) && nextStates.Count >= 1){
-			_storyState = nextStates[0];
-			_storyText.text = _storyState.GetStoryState();
+
+    if (Input.GetKeyDown(KeyCode.Space))
+    {
+      _storyState = nextStates[0];
+			isStateChanged = true;
+    }
+
+    for (int i = 0; i < nextStates.Count; i++) {
+			if (Input.GetKeyDown(KeyCode.Alpha1 + i)){
+				_storyState = nextStates[i];
+        isStateChanged = true;
+      }
 		}
-		else if (Input.GetKeyDown(KeyCode.Alpha2) && nextStates.Count >= 2){
-			_storyState = nextStates[1];
-			_storyText.text = _storyState.GetStoryState();
+
+		if (isStateChanged) {
+	    _storyText.text = _storyState.GetStoryState();
 		}
   }
 }

@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cb4b8617f9a0a114fa1c72f57fde2d80, type: 3}
+  m_Name: B6
+  m_EditorClassIdentifier: 
+  _storyText: "You stand stunned by the look of this place. It must have been someone's
+    hideout! What are all these mysterious mechanisms of ropes and blocks for... and
+    that dark opening in the trunk!?\r\n\r1. Release what looks to be a swinging rope
+    and swing around the trunk!\r\n2. Take a deep breath and enter the trunk through
+    a large hollow!\r\n3. Stretch your arm and grab an odd looking end of a rope handing
+    over your head... "
+  _nextStates:
+  - {fileID: 11400000, guid: 2abfa82b49ffc45488d23d19f623ce84, type: 2}
+  - {fileID: 11400000, guid: 8a7acf22df7f1344c9bba75e83ebbe18, type: 2}
+  - {fileID: 11400000, guid: dd5afae7b0253d34ea9ba7f6241cb8a1, type: 2}

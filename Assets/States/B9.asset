@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cb4b8617f9a0a114fa1c72f57fde2d80, type: 3}
+  m_Name: B9
+  m_EditorClassIdentifier: 
+  _storyText: "Wow. What a view! Stunned by the look of the places you know so well
+    but that became so small you almost forgot of you goal which was really close!
+    You see your missed toy just above your head but you cannot simply reach it with
+    your hand. What puzzled you even more - there was no single useful branch more
+    to make a tiny step up. What would you do?\r\n\r1. Simply jump to snatch your
+    treasure!\r\n2. Crawl up the trunk like a monkey!"
+  _nextStates:
+  - {fileID: 11400000, guid: 480861eb29f64ad49965f2e25f7a1c26, type: 2}
+  - {fileID: 11400000, guid: ea7d760486b27204da92fa82b8737015, type: 2}

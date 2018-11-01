@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cb4b8617f9a0a114fa1c72f57fde2d80, type: 3}
+  m_Name: B3
+  m_EditorClassIdentifier: 
+  _storyText: "You are a few meters off the ground on what seems to be the northen
+    side on the tree. Where next could you go?\r\n\r1. Back? Huh... Scarry stuff!
+    I am going back..\r\n2. Up above your head you can see a lonely solid branch that
+    goes up high and away from the trunk. In the distance it meets another branch
+    that should bring you much higher and back to the trunk. I feel like this is the
+    way!\r\n3. An accending branch to the left, like a liane leeds up around the trunk.
+    It looks a safe way up. I'm going there!"
+  _nextStates:
+  - {fileID: 11400000, guid: 8a7acf22df7f1344c9bba75e83ebbe18, type: 2}
+  - {fileID: 11400000, guid: f62267beaa265394283aad963bdaf0d5, type: 2}
+  - {fileID: 11400000, guid: c7eb611e0d9a7c744a0148656f53e59f, type: 2}

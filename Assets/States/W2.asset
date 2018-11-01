@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cb4b8617f9a0a114fa1c72f57fde2d80, type: 3}
+  m_Name: W2
+  m_EditorClassIdentifier: 
+  _storyText: "As you pulled the rope something clang up high activating a hidden
+    mechanism of blocks and weights that gently start to pull the rope up. You closed
+    your eyes and held to the rope as hard as you can. You opened your eyes when the
+    rope stopped moving and ... you could not believe it - you saw your drone hanging
+    in front of you! \r\n\r\nCongrats! You were brave and with a good fortune reached
+    the goal of the game! Well done!\r\n\r\nPress 'Space' to start over."
+  _nextStates:
+  - {fileID: 11400000, guid: 52ada9d188b7b824fb26edad00686e09, type: 2}

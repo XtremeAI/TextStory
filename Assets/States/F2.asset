@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cb4b8617f9a0a114fa1c72f57fde2d80, type: 3}
+  m_Name: F2
+  m_EditorClassIdentifier: 
+  _storyText: "That was a mighty jump... but regretfully not enough to reach the toy
+    and what's worse, on landing you missed the branch you jumped from and you were
+    quickly going down painfully counting the branches... boom! \r\n\r\nMission failed!
+    \r\n\r\nPress 'Space' to start over."
+  _nextStates:
+  - {fileID: 11400000, guid: 52ada9d188b7b824fb26edad00686e09, type: 2}

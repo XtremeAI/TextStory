@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cb4b8617f9a0a114fa1c72f57fde2d80, type: 3}
+  m_Name: B4
+  m_EditorClassIdentifier: 
+  _storyText: "On this side of the tree you seems to have reached the pinnacle of
+    the branch you were following. Holding to the trunk you realized that from here
+    this branch goes down both ways. Where would you go?\r\n1. Down right\r\n2. Down
+    left"
+  _nextStates:
+  - {fileID: 11400000, guid: b014b4cd4b40ea942bc899418b62fc25, type: 2}
+  - {fileID: 11400000, guid: 971e6d9e69ce51e4399c9ff523e8b7eb, type: 2}

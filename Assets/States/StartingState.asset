@@ -11,11 +11,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cb4b8617f9a0a114fa1c72f57fde2d80, type: 3}
   m_Name: StartingState
   m_EditorClassIdentifier: 
-  _storyText: "You starved heavily the second day in a row. \rYour body was probably
-    getting used to absense of food but you new you must find something to eat whatever
-    on earth it might take and you new... There is no time left to spare! \r\n\r\nWhere
-    would you go next?\r\n\r\n1. The long winded tunnel\r\n2. Climb deeper down the
-    hole"
+  _storyText: "You stand enchanted by a giant leafy tree at the top of which stuck
+    your precious flying drone. Oh, boy, you must climb and claim it back! \n\nYou
+    see already how easy you can reach the lower branches to start making your way
+    up...\n\r\nWould you venture?\r\n\r\nPress 'Space' to climb up!"
   _nextStates:
-  - {fileID: 11400000, guid: 3af49092b4602d44d9836b05dae69439, type: 2}
-  - {fileID: 11400000, guid: bef262f939a559344862c4f5f958f295, type: 2}
+  - {fileID: 11400000, guid: 8a7acf22df7f1344c9bba75e83ebbe18, type: 2}

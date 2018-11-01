@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cb4b8617f9a0a114fa1c72f57fde2d80, type: 3}
+  m_Name: B5
+  m_EditorClassIdentifier: 
+  _storyText: "You managed to reach the crossing a few more meters higher. It does
+    not look safe to jump or go back from here at all! But what are ways forward?
+    \r\n\r1. I'll climb through the bushy leaves onto the eastern side of the tree.
+    This way I can safely make a few more meters up!\r\n2. Balancing on the branch
+    you stand try to make your way to the trunk. You won't make any higher but you
+    can get close to mysterious opening in the hull!"
+  _nextStates:
+  - {fileID: 11400000, guid: 50ec3d067727d084083c8cbaafd30d76, type: 2}
+  - {fileID: 11400000, guid: 6c51f7dd3f43d9f44a29250f8e4b40ba, type: 2}

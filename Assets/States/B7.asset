@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cb4b8617f9a0a114fa1c72f57fde2d80, type: 3}
+  m_Name: B7
+  m_EditorClassIdentifier: 
+  _storyText: "You feel like that was a great choice! You seems to be mid way to target.
+    You see a clear path to the top - a row of thick bare branches going leading up
+    like a staircase! \r\n\r1. Easy-peasy, lemon... Follow it!"
+  _nextStates:
+  - {fileID: 11400000, guid: 2abfa82b49ffc45488d23d19f623ce84, type: 2}
