@@ -9,6 +9,7 @@ public class StoryScript : MonoBehaviour {
 	[SerializeField] Text _storyText;
 	[SerializeField] State _startingState;
 
+
 	State _storyState;
 	// Use this for initialization
 	void Start () {
@@ -24,11 +25,11 @@ public class StoryScript : MonoBehaviour {
   private void ManageState()
   {
     var nextStates = _storyState.GetNextStates();
-		if (Input.GetKeyDown(KeyCode.Alpha1)){
+		if (Input.GetKeyDown(KeyCode.Alpha1) && nextStates.Count >= 1){
 			_storyState = nextStates[0];
 			_storyText.text = _storyState.GetStoryState();
 		}
-		else if (Input.GetKeyDown(KeyCode.Alpha2)){
+		else if (Input.GetKeyDown(KeyCode.Alpha2) && nextStates.Count >= 2){
 			_storyState = nextStates[1];
 			_storyText.text = _storyState.GetStoryState();
 		}
