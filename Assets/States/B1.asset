@@ -11,10 +11,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cb4b8617f9a0a114fa1c72f57fde2d80, type: 3}
   m_Name: B1
   m_EditorClassIdentifier: 
-  _storyText: "You stand on a thick lower branch by a dark hollow. A myriad  of branches
-    grows on both sides. The hollow seems too narrow for you to climb it up.\r\n1.
+  _storyText: "You stand on a thick lower branch by a dark hollow. A myriad of branches
+    grows on both sides. The hollow seems too narrow for you to climb it up.\r\n\n1.
     The ones on the right look thicker but rather bushy. Going here!\r\n2. The ones
-    on the left side look more fragile but quite easy to climb by. Going there!"
+    on the left side look more fragile but quite easy to climb by. Going there!\n\nPress
+    the number of your choice."
   _nextStates:
   - {fileID: 11400000, guid: 971e6d9e69ce51e4399c9ff523e8b7eb, type: 2}
   - {fileID: 11400000, guid: b014b4cd4b40ea942bc899418b62fc25, type: 2}
